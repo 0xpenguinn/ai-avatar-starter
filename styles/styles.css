@@ -10,7 +10,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(55, 144, 218);
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -119,6 +119,84 @@ body {
     border-color: rgba(255, 255, 255, 0.75)
 }
 
+.threebutton {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.ConceptFantasybutton {
+    margin-right: 10px;
+    background: linear-gradient(135deg, #1324b9, #7b9fe0);
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: #6B7280;
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+.ConceptArtbutton {
+    margin-right: 10px;
+    background: linear-gradient(135deg, #1324b9, #7b9fe0);
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: #6B7280;
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 10px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+.ConceptCartoonbutton {
+    margin-right: 10px;
+    background: linear-gradient(135deg, #1324b9, #7b9fe0);
+    place-content: flex-start;
+    align-items: flex-start;
+    background-color: #6B7280;
+    border-radius: 100px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column nowrap;
+    gap: 10px;
+    height: min-content;
+    overflow: hidden;
+    padding: 16px 24px;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+    will-change: transform;
+    cursor: pointer;
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
 
 .prompt-buttons {
     display: flex;
@@ -136,9 +214,10 @@ body {
 }
 
 .generate-button {
+    background: linear-gradient(135deg, #1324b9, #7b9fe0);
     place-content: flex-start;
     align-items: flex-start;
-    background-color: #F32E98;
+    background-color: #6B7280;
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -152,6 +231,13 @@ body {
     width: min-content;
     will-change: transform;
     cursor: pointer;
+    color: #FFF;
+    transition: all 0.2s ease-in-out;
+}
+
+.generate-button:hover {
+    background-color: #9B36B7;
+    transform: translateY(-2px);
 }
 
 .generate {
